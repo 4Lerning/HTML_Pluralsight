@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+        <!--Basics-->
+        <!--Using header posibilitys-->
+        <title>Hello HTML</title>
+        <meta name = "Author" content= "BK"/>
+        <meta name = "Content" content= "First Plurasight HTML page"/>
+        <meta name = "keywords" content= "Plurasight, Hello, HTML"/>
+        <meta http-equiv="Content-Type" content= "text/html;charset=UTF-8"/>
+        
+        <script type = "text/javascript">
+            window.onload = function() {
+                alert("First Alert");
+            };
+            document.onmousemove = function(){
+            document.getElementById("myMessage").innerHTML = "Hello JS";
+            };
+        </script>
+
+        <style type= "text/css">
+            body {background: black}
+            body {color: yellowgreen}
+            .message {color: green}
+        </style>
+        <!--
+            base for an link ref.
+        <base herf="http://plurasight.com/"/>
+        -->
+        <link rel="stylesheet" type= "text/css" herf="index.css"/>
+
+    </head>
+    <body>
+       <div id="myMessage" class="message"> Hello World </div>
+    </body>
+</html>

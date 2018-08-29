@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>WhiteSpace Demo</title>
+    </head>
+    <body>
+        <div id="overviewContainer">This is my <span> overview </span></div>
+        <!--Respekts WhiteSpace-->
+        <div id="overviewContainer">
+             <pre>antoher text fooo </pre> 
+            </div>
+        <!--explicit line break-->
+        <div id="overviewContainer"> 
+            antoher<br/> text fooo
+         </div>
+         <!--Horizontal rule-->
+        <div id="overviewContainer">
+            <hr  />
+        </div>
+        <div>
+            <pre>
+            Lorem ipsum dolor sit amet,
+                     consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            </pre>
+        </div>
+        <div>
+            <hr/>
+                <pre>
+                Lorem ipsum dolor sit amet,
+                         consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                </pre> 
+                <hr/>
+                <span>span one</span> 
+                <span>span two</span> <br/>
+                <span>span one br</span> <br/>
+                <span>span two br</span>
+            </div>
+            <!--render chars-->
+        <div>showing an &lt;div&lt;</div>
+    </body>
+</html>
